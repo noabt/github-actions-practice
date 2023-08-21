@@ -1,8 +1,0 @@
-name: self-greeting
-on: push
-jobs:
-  my-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: greet
-        run: echo "Hello Noa!"
