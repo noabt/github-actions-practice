@@ -2,8 +2,8 @@ name: github-practice
 on: push
 
 env:
-  docker_username: ${{ secrets.DOCKER_USERNAME }}
-  docker_password: ${{ secrets.DOCKER_PASSWORD }}
+  docker_username: ${{ github.actor }}
+  docker_password: ${{ secrets.GITHUB_TOKEN }}
   GIT_COMMIT: ${{ github.sha }}
 
 jobs:
