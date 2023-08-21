@@ -1,4 +1,4 @@
-name: ft.containers
+name: wwcontainers
 on: push
 jobs:
   my-job:
